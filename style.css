@@ -1,0 +1,44 @@
+.lesson-content {
+	background-color: #DFEAF1;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 16px;
+	color: black;
+	font-family: courier;
+}
+
+.lesson {
+	background-color: #294860;
+	border-radius: 20px;
+	color: white;
+	padding: 10px;
+}
+
+h2 {
+	margin-top: 0.25em;
+	margin-bottom: 0.25em;
+	color: rgb(0, 85, 255);
+	font-family: courier;
+}
+
+.example {
+	background-color: #A1BBCE;	
+	margin-left: 0.50em;
+	margin-right: 0.50em;
+}
+
+h1 {
+	font-family: courier;
+}
+
+article {
+	display: block;
+	margin-top: 1em;
+	text-align: center;
+	font-family: arial;
+}
+
+.bsd {
+	text-align: right;
+	font-size: 8px
+}
