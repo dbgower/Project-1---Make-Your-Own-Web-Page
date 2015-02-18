@@ -11,14 +11,14 @@
               <div class="lesson-content">
                 <h2>Anchor</h2>
                   We began by looking at an anchor, this is a tag used for making links.<br>
-                  <span class="example">e.g. &lta href="www.google.com">link to google&lt/a&gt</span><br>
+                  <span class="example">e.g. &lt;a href="www.google.com">link to google&lt;/a&gt;</span><br>
                   href is the attribe name and "www.google.com" is the value<br>
                   Here is the result: <a href="www.google.com">link to google</a>
               </div>
               <div class="lesson-content">
                 <h2>Images</h2>
                   Next we looked at how to add an image.<br>
-                  <span class="example">e.g. &ltimg src="https://www.google.co.il/images/srpr/logo11w.png" alt="google logo"&gt</span><br>
+                  <span class="example">e.g. &lt;img src="https://www.google.co.il/images/srpr/logo11w.png" alt="google logo"&gt;</span><br>
                   img is a void tag, meaning there is no closing to the tag<br>
                   alt= is required and is used to provide text if there is a broken link or for blind people<br>
                   Here is how it looks:<br>
@@ -26,11 +26,11 @@
               </div>
               <div class="lesson-content">
                 <h2>Break</h2>
-                  A line break is entered by putting <span class="example">&ltbr&gt</span>
+                  A line break is entered by putting <span class="example">&lt;br&gt;</span>
               </div>
               <div class="lesson-content">              
                 <h2>Paragraph</h2>
-                  A paragraph is created by entering <span class="example">&ltp&gt</span> before the paragraph and <span class="example">&lt/p&gt</span> after the paragraph
+                  A paragraph is created by entering <span class="example">&lt;p&gt;</span> before the paragraph and <span class="example">&lt;/p&gt;</span> after the paragraph
               </div>
               <div class="lesson-content">
                 <h2>Inline / Block</h2>
@@ -55,7 +55,7 @@
                 <h2>What is the interaction between HTML, CSS and DOM</h2>
                   HTML is a language which means it is made of syntax and rules. The language includes a tag which become the elements in the tree (the DOM).<br>
                   For example: <br>
-                  <span class="example">&lth1 class = "attribute"&gt</span><br>
+                  <span class="example">&lt;h1 class = "attribute"&gt;</span><br>
                   In this example h1 is the type of tag and the class is the attribute. <br>
                   CSS changes how elements look on the page, e.g. the font size, color, background, etc. The HTML provides information for the browser about what style to use and where to get it.
               </div>
@@ -67,18 +67,18 @@
                   There are two ways to add CSS to HTML, either by linking to a separate CSS file or by adding the CSS into the same HTML page.<br>
                   <div class="example">
                     e.g.<br>
-                    &lthead&gt<br>
-                    &ltlink rel="stylesheet" type = "text/css" href = "style.css"&gt<br>
-                    &lt/head&gt<br>
+                    &lt;head&gt;<br>
+                    &lt;link rel="stylesheet" type = "text/css" href = "style.css"&gt;<br>
+                    &lt;/head&gt;<br>
                     <br>
                     or <br>
                     <br>
-                    &lthead&gt<br>
-                    &ltstyle&gt<br>
+                    &lt;head&gt;<br>
+                    &lt;style&gt;<br>
                     div {<br>
                     background-color:red;<br>
                     }<br>
-                    &lt/style&gt
+                    &lt;/style&gt;
                   </div>
               </div>
               <div class="lesson-content">
@@ -113,6 +113,8 @@
                   Divs are block elements so by default take the whole width, adding the rule <span class="example">display:flex</span> will override this and let divs appear next to each other
               </div>
       </div>
-  <article>This concludes the first part of the nanodegree :)</article>
+    <article>
+      <h3>This concludes the first part of the nanodegree :)</h3>
+    </article>
   </body>
   </HTML>
